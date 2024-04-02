@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone Shop</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <h1>SmarTech</h1>
+    <div class="buttons">
+        <button onclick="h1()">Modify h1</button>
+        <button onclick="changeBackgroundgColor()">Modify Background Color</button>
+        <button onclick="changeAddress()">Modify Address</button>
+        <button onclick="addClass()">Modify Class link</button>
+        <button onclick="toggleClass()">Toggle Class</button>
+        <button onclick="setRandomColor()">Generate Random Color</button>
+    </div>
+    <table>
+        <tbody>
+            <tr>
+                <th>Image</th>
+                <th>Amazon Link</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="images">
+                        <img src="https://m.media-amazon.com/images/I/81fYvFvX-8L._AC_SX679_.jpg">
+                    </div> 
+                </td>
+                <td class="amznLink">
+                    <a href="https://www.amazon.it/gp/aw/d/B0CHX1DDJM/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=09a7d7537865eeb3ccc348bae6f34c0d&hsa_cr_id=0&qid=1711662254&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_lsi4d_asin_0_img&pd_rd_w=vcwkm&content-id=amzn1.sym.b580b30c-dd62-441e-ab95-5e749dbe7889%3Aamzn1.sym.b580b30c-dd62-441e-ab95-5e749dbe7889&pf_rd_p=b580b30c-dd62-441e-ab95-5e749dbe7889&pf_rd_r=V5D031W4MGWHF35XPE71&pd_rd_wg=DPq5y&pd_rd_r=63a371c2-1c53-4584-b229-e865243dcccb">Iphone</a>
+                </td>
+                <td>Apple iPhone 15 Pro Max (256 GB) - Titanio nero</td>
+                <td class="price">1.299€</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="images">
+                        <img src="https://m.media-amazon.com/images/I/51KniDLmCAL._AC_SX679_.jpg">
+                    </div>
+                </td>
+                <td>
+                    <a href="https://www.amazon.it/Samsung-GALAXY-S24-Ultra-SM-S928BZTHEUB/dp/B0CSPQLM4X/ref=dp_fod_sccl_3/261-8556811-2165549?pd_rd_w=c1hB1&content-id=amzn1.sym.1f82cd04-4e5c-4e42-9f8c-e22ea464e191&pf_rd_p=1f82cd04-4e5c-4e42-9f8c-e22ea464e191&pf_rd_r=K06ES7BNJV5HAP68K1Z5&pd_rd_wg=k7JCP&pd_rd_r=ae6cf3f7-1d91-468e-b2b2-eb1170d73134&pd_rd_i=B0CSPQLM4X&psc=1">Samsung</a>
+                </td>
+                <td>Samsung GALAXY S24 Ultra SM-S928BZTHEUB titanium-gray</td>
+                <td class="price">1.249€</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="images">
+                        <img src="https://m.media-amazon.com/images/I/71ZDY57yTQL._AC_SX679_.jpg">
+                    </div>
+                </td>
+                <td>
+                    <a href="https://www.amazon.it/Apple-iPhone-14-Pro-128/dp/B0BDKQJ14P/ref=sr_1_2_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=EUE3LKKLCDMD&dib=eyJ2IjoiMSJ9.cn7AqqgACB4ixH-mTCRiL2akS2IzOD4_I7a2fr8C6r7z4_dnrdD5J1pTFO2AixmscIH8CGXuIV6mop4hIrOQf_Wv45HB_sL4SuYKQ7gNDZVRoY6p0iwKaC7L60CsHVzOFbDSSR0pFBVzYGYCR-xIqLjmJ0sJzsmibjWkXRJTdStqwI5Nx_TtoKbIw3z4LEGNw4pay52AKFA9Rlujm66oldzAK1u3_1fTDE8x_cK51rtPZGzokFovEQiu9gM_xARdC0AbVSbo2BPRl1k4g9Rc7koLeKscdl12IUdm86UeoQw.JnCMZMVGhZrqvlEt6X8DSPFdYgRdBX29Cz93mxa583c&dib_tag=se&keywords=iphone+14+pro+max&qid=1711663707&s=electronics&sprefix=iphone+14+pro+max%2Celectronics%2C96&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Iphone</a>
+                </td>
+                <td>Apple iPhone 14 Pro (128 GB) - Oro</td>
+                <td class="price">1.129€</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="images">
+                        <img src="https://m.media-amazon.com/images/I/71dpTXFz+dL._AC_SX342_SY445_.jpg">
+                    </div>
+                </td>
+                <td>
+                    <a href="https://www.amazon.it/Apple-iPhone-13-128GB-Azzurro/dp/B09G9DMQ7M/ref=sr_1_1_sspa?crid=1YNHSP3XAZG1X&dib=eyJ2IjoiMSJ9.QUGuHY6UksNShcqbGffKnsnN0J6fuud-w6AwPqW-L2bVHBv7iJK3FSZqJkNADRGaqnTrT09YcOJCRICTtKrQWu6W8E14fwZp137QpIJp-U5ZQuP9np1XQ85oU4Pd_U19h73HV0HSL7py4sjcXa7j4DsjGVoEV079DFtl2BFMABLg5H6REW6BSAK3WF5mvv8usgcJsu1116JN9Hi5aMFkL9XPBOv12OxNiroewaOMJD8TaMLqAP7Eb4nwHheFemhdlDQxwJ644s6YYNZgp40lf8YH4-d4dz0VeAl9QlqGmLg.05wLLLkdVapVuwt3s9nYXKoOMAuPSaAUnKYOcSEMf-w&dib_tag=se&keywords=iphone+13&qid=1711663863&s=electronics&sprefix=iphone+13%2Celectronics%2C104&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Iphone</a>
+                </td>
+                <td>Apple iPhone 13 (128GB) - Azzurro</td>
+                <td class="price">629€</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="images">
+                        <img src="https://m.media-amazon.com/images/I/61s0kQY5gKL._AC_SX679_.jpg">
+                    </div>
+                </td>
+                <td>
+                    <a href="https://www.amazon.it/Apple-generazione-custodia-ricarica-Lightning/dp/B0BDKSF6M8/ref=sr_1_1_sspa?crid=1CMQ2LVZTZYY4&dib=eyJ2IjoiMSJ9.JTJS4wDu_99vXUQ2Z4MZmv_jDV7KWj5f-DAIxgxTAEM7fkEiaYR5u1uPYv-FR5EE2D3cSN7_iEIDkawDbM2_Iq_bitSOrEWqGVgwC8kRh3eXRZJRXQ81sTt1D2geD94cycl8WB0vV6DY3qklx2SXIodoIr493waRLGwqZ-xIaY8KtxOJ80vr1axTtZ_-6o0UEHYLHJ0QcGYulH153jBmu60QH2eDJn2AN-tM85dXyXtQLLA5EMBt5VVe14oqjAHsuHWDV-WnRxn-ztIMPqwCqjBlaI1mdTA_V83YdlYab8g.MkdPcgXPLvurC1tOIslG-XuQfY-516_xD3WWdCLXP2c&dib_tag=se&keywords=airpods&qid=1711664102&s=electronics&sprefix=air%2Celectronics%2C103&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">AirPods</a>
+                </td>
+                <td>Apple AirPods (terza generazione) con custodia di ricarica Lightning</td>
+                <td class="price">169€</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <textarea></textarea>
+    <footer>
+        <div>SmarTech</div>
+        <div id="address">Via Tiburtina, 602a, 00159 Roma RM</div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
